@@ -7,7 +7,7 @@ This script will not work straight out the box and requires you to have a resona
 # Understanding Hex
 
 The Orvibo S20 can be controlled by simple UDP packets listening on port 10000.
-To use this script you must generate your own Hex packets using the hex generator. 2 scripts files were created to give you an understanding of how the system works. The can be combined easily if desired.
+To use this script you must generate your own Hex packets using the hex generator. 2 scripts files were created to give you an understanding of how the system works. This can be combined easily if desired.
 It is recommended that you give your Orvibo S20 device a static IP Address.
 
 # Usage
