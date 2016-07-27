@@ -38,8 +38,8 @@ def subscribe():
 	recieve_data = recieve()
 	print ('Subscribition to light sent')
 
-
-
+#Run this at the same time or straight after sending packets. This will catch the return packet. Using subscribe_recieve_on or subscribe_recieve_off
+#to determine whether a device is on or off.
 def recieve():
 	global error_value
 	sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP	
