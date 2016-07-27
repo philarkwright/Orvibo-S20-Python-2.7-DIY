@@ -1,0 +1,8 @@
+MAC = raw_input('Enter MAC address of device WITHOUT any spaces or character in between: ')
+print 'Poweron Hex: 686400177366%s2020202020200000000001' % (MAC)      
+print 'Poweroff Hex: 686400176463%s2020202020200000000000' % (MAC)    
+print 'subscribe Hex: 6864001e636c%s20202020202004739323cfac202020202020' % (MAC)    
+print 'subscribe_recieve_on Hex: 68640018636c%s202020202020000000000001' % (MAC)    
+print 'poweron_recieve Hex: 686400177366%s2020202020200000000001' % (MAC)    
+print 'subscribe_recieve_off Hex: 68640018636c%s202020202020000000000000' % (MAC)    
+print 'poweroff_recieve Hex: 686400177366%s2020202020200000000000' % (MAC)    
