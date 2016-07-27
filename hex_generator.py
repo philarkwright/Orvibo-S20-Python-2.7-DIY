@@ -1,4 +1,4 @@
-MAC = raw_input('Enter MAC address of device WITHOUT any spaces or character in between: ')
+MAC = raw_input('Enter MAC address of your Orvibo S20 WITHOUT any spaces or character in between: ')
 print 'Poweron Hex: 686400177366%s2020202020200000000001' % (MAC)      
 print 'Poweroff Hex: 686400176463%s2020202020200000000000' % (MAC)    
 print 'subscribe Hex: 6864001e636c%s20202020202004739323cfac202020202020' % (MAC)    
