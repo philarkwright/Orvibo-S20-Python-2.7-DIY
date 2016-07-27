@@ -4,11 +4,13 @@ After recieving the Orvibo S20 I wanted to incorperate it within my home automat
 
 This script will not work straight out the box and requires you to have a resonable understanding of Python and Hex.
 
-# Understanding Hex
+# Understanding HEX
 
 The Orvibo S20 can be controlled by simple UDP packets listening on port 10000.
 To use this script you must generate your own Hex packets using the hex generator. 2 scripts files were created to give you an understanding of how the system works. This can be combined easily if desired.
 It is recommended that you give your Orvibo S20 device a static IP Address.
+
+To get a good understanding of how the packet communication works. I suggest installing a UDP HEX Packet sender and Wireshark. Then sending the hex to the device and watching the response.
 
 # Usage
 
